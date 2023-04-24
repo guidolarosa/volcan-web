@@ -34,14 +34,14 @@ export default function Home() {
       </Box>
       <main>
         <Box className="flex h-[calc(100vh)] items-center justify-center">
-          <strong className="text-9xl text-red-600">Imagine</strong>
+          <strong className="text-6xl lg:text-9xl text-red-600">Imagine</strong>
         </Box>
-        <Box className="max-w-7xl">
-          <div id="breakdown" className="bg-red-600 flex flex-col w-full text-center p-8 rounded-2xl bg-cover " style={{backgroundImage: `url(/homepage/breakdown.png)`}}>
-            <strong className="inline-block text-8xl">We Are</strong>
-            <strong className="inline-block text-8xl">VOLCAN</strong>
-            <p className="text-4xl mt-8 leading-relaxed max-w-4xl mx-auto">
-              We create and develop business ideas and brands with <strong>attitude and meaningfull impact</strong>.
+        <Box className="">
+          <div id="breakdown" className="flex flex-col max-w-6xl mx-auto w-full text-center py-16 rounded-2xl bg-cover" style={{backgroundImage: `url(/homepage/breakdown.png)`}}>
+            <strong className="inline-block text-5xl lg:text-8xl">We Are</strong>
+            <strong className="inline-block text-5xl lg:text-8xl">VOLCAN</strong>
+            <p className="text-2xl lg:text-4xl mt-8 leading-relaxed max-w-4xl mx-auto tracking-wide">
+              We create and develop business ideas <br/>and brands with <strong>attitude and <br/>meaningfull impact</strong>.
             </p>
             <Button
               label={'About Us'}
