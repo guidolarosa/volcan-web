@@ -1,4 +1,5 @@
 /** @type {import('tailwindcss').Config} */
+const colors = require('tailwindcss/colors');
 module.exports = {
   content: [
     './src/pages/**/*.{js,ts,jsx,tsx,mdx}',
@@ -6,6 +7,15 @@ module.exports = {
     './src/app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
   theme: {
+    screens: {
+      'sm': '360px',
+      'md': '768px',
+      'lg': '1024px',
+      'xl': '1440px',
+      '2xl': '1920px',
+      '4xl': '3240px'
+
+    },
     extend: {
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
