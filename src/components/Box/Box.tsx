@@ -5,11 +5,12 @@ type BoxProps = {
   className?: string,
   id?: string
   children?: ReactNode,
+  style?: object
 }
 
 const Box = (props : BoxProps) => {
   return (
-    <div id={props.id} className={`flex mx-auto px-8 lg:px-40 ${props.className}`}>
+    <div id={props.id} className={`flex mx-auto px-8 lg:px-40 ${props.className}`} style={props.style}>
       {props.children}
     </div>
   );

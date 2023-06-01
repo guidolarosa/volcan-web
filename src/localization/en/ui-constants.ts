@@ -33,3 +33,48 @@ export const navigation = [
     ]
   }
 ];
+
+export const footerNavigation = [
+  {
+    title: 'Sitemap',
+    links: [
+      {
+        label: 'Homepage',
+        href: '/'
+      },
+      {
+        label: 'About',
+        href: '/'
+      },
+      {
+        label: 'Work',
+        href: '/'
+      },
+      {
+        label: 'Services',
+        href: '/'
+      },
+      {
+        label: 'Contact',
+        href: '/'
+      },
+    ]
+  },
+  {
+    title: 'Universe',
+    links: [
+      {
+        label: 'Volcan Collective',
+        href: '/'
+      },
+      {
+        label: 'Blog',
+        href: '/'
+      },
+      {
+        label: 'Shop',
+        href: '/'
+      },
+    ]
+  },
+]
