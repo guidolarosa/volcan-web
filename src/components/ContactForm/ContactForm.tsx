@@ -1,8 +1,8 @@
 const ContactForm = () => {
 
-  const inputStyles = 'border-b bg-transparent w-full h-12 outline-none';
-  const inputGroupStyles = 'flex flex-col w-1/2 ';
-  const inputRowStyles = 'flex gap-8 mb-8';
+  const inputStyles = 'border-b bg-transparent w-full h-12 outline-none rounded-none';
+  const inputGroupStyles = 'flex flex-col w-full md:w-1/2 ';
+  const inputRowStyles = 'flex flex-col md:flex-row gap-8 mb-8';
   const labelStyles = 'mb-2 font-bold';
 
   return (
