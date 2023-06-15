@@ -5,8 +5,8 @@ import { footerNavigation } from "@/localization/en/ui-constants";
 const Footer = (props: any) => {
   return (
     <footer className="bg-footer-gradient py-16 rounded-[30px_30px_0px_0]">
-      <Box className="mb-20">
-        <div className="w-1/4">
+      <Box className="mb-20 flex flex-col md:flex-row">
+        <div className="w-full md:w-1/4">
           <strong className="block mb-4 text-2xl">
             {" "}
             {footerNavigation[0].title}
@@ -46,7 +46,7 @@ const Footer = (props: any) => {
           </div>
         </div>
       </Box>
-      <Box>
+      <Box className="flex flex-col md:flex-row">
         <div className="w-1/4">FAQ</div>
         <div className="w-1/4">TERMS</div>
         <div className="w-1/4"></div>

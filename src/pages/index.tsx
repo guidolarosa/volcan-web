@@ -55,10 +55,10 @@ export default function Home() {
         <main>
           <Box
             id={"hero"}
-            className="flex h-[calc(100vh)] items-center justify-center"
+            className="flex h-[calc(100vh)] items-center justify-center mb-40"
             style={{
               backgroundImage: 'url(/homepage/line.png)',
-              backgroundPosition: 'center',
+              backgroundPosition: 'bottom',
               backgroundSize: 'cover'
             }}
           >
@@ -99,12 +99,12 @@ export default function Home() {
           <Box className="mt-40 mb-12 flex flex-col">
             <div className="flex justify-between w-full items-center">
               <div className="flex flex-col">
-                <h1 className="text-9xl font-bold mb-4">Works</h1>
-                <p className="text-2xl">
+                <h1 className="text-4xl md:text-9xl font-bold mb-4">Works</h1>
+                <p className="text-md md:text-2xl">
                   And maybe <strong>something else</strong>, or maybe not.
                 </p>
               </div>
-              <Button label={"See all"} />
+              <Button label={"See all"} className="whitespace-nowrap" />
             </div>
           </Box>
           <div className="mb-40">
@@ -135,8 +135,8 @@ export default function Home() {
           <Box className="my-40 flex flex-col">
             <div className="flex justify-between w-full items-center">
               <div className="flex flex-col">
-                <h1 className="text-9xl font-bold mb-4">We don&apos;t bite</h1>
-                <p className="text-2xl">
+                <h1 className="text-4xl md:text-9xl font-bold mb-4">We don&apos;t bite</h1>
+                <p className="text-md md:text-2xl">
                   Or maybe we do but... <strong>Talk to us, </strong>dale!
                 </p>
               </div>

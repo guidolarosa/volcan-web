@@ -36,8 +36,8 @@ const Services = () => {
     <Box className="my-40 flex-col">
       <div className="flex justify-between w-full items-center mb-8">
         <div className="flex flex-col">
-          <h1 className="text-9xl font-bold mb-4">Services</h1>
-          <p className="text-2xl">
+          <h1 className="text-4xl md:text-9xl font-bold mb-4">Services</h1>
+          <p className="text-md md:text-2xl">
             This is what we do to help you{" "}
             <strong>improve your business</strong>. Or kind of...
           </p>
