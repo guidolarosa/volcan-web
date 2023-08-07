@@ -1,7 +1,12 @@
 const work4 = {
-  title: 'Work 4',
+  title: 'Alt',
   thumbnail: '/works/placeholder.png',
-  slug: 'work-4'
+  largeImage: '/works/alt.png',
+  slug: 'alt',
+  services: [
+    'Branding'
+  ],
+  location: 'Spain'
 }
 
 export default work4;

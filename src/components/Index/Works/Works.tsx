@@ -1,44 +1,39 @@
 import Image from "next/image";
+import Link from "next/link";
 import Box from "@/components/Global/Box/Box";
-import Button from "@/components/Global/Button/Button";
-import works from "@/localization/works";
-import Marquee from "react-fast-marquee";
+import WorkSlider from "./WorkSlider";
 
 const Works = (props: any) => {
   return (
     <>
       <Box className="mt-40 mb-12 flex flex-col">
         <div className="flex justify-between w-full items-center">
-          <div className="flex flex-col">
-            <h1 className="text-4xl md:text-9xl font-bold mb-4">Works</h1>
-            <p className="text-md md:text-2xl">
-              And maybe <strong>something else</strong>, or maybe not.
-            </p>
+          <div className="flex w-full relative">
+            <div className="w-[475px] h-[475px] aspect-square absolute top-[-80px] right-[calc(70vw-80px)]">
+              <Image
+                src="/homepage/Pen.png"
+                fill
+                alt="Volcan" 
+                className="object-contain"
+              />
+            </div>
+            <div className="flex flex-col ml-auto">
+              <h1 className="text-4xl md:text-[128px] md:leading-[128px] font-bold mb-4 md:text-right md:mb-8">Works<br/> <span className="font-light">that work.</span></h1>
+              <p className="text-md md:text-4xl md:text-right mb-4">
+                This is what we did.
+              </p>
+              <p className="text-md md:text-4xl md:text-right mb-4">
+                This is what we <strong>like to do.</strong>
+              </p>
+              <p className="text-md md:text-lg md:text-right mb-4">
+                Want to see more? Follow us on <Link href="#" className="underline">Instagram</Link>
+              </p>
+            </div>
           </div>
-          <Button label={"See all"} className="whitespace-nowrap" />
         </div>
       </Box>
       <div className="mb-40">
-        <Marquee pauseOnHover gradient gradientColor={[0, 0, 0]}>
-          {works.map((work: any, index: number) => (
-            <div
-              key={index}
-              className={"h-80 w-80 mr-8 relative rounded-3xl overflow-hidden"}
-            >
-              <div className="absolute top-6 left-6 z-10 text-xl font-semibold">
-                {work.title}
-              </div>
-              <Image
-                src={work.thumbnail}
-                fill
-                alt={work.title}
-                style={{
-                  objectFit: "cover",
-                }}
-              />
-            </div>
-          ))}
-        </Marquee>
+        <WorkSlider />
       </div>
     </>
   );

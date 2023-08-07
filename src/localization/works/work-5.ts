@@ -1,7 +1,12 @@
 const work5 = {
-  title: 'Work 5',
+  title: 'Indala',
   thumbnail: '/works/placeholder.png',
-  slug: 'work-5'
+  largeImage: '/works/indala.png',
+  slug: 'indala',
+  services: [
+    'Branding'
+  ],
+  location: 'Spain'
 }
 
 export default work5;

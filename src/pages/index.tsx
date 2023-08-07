@@ -9,6 +9,7 @@ import Hero from "@/components/Index/Hero/Hero";
 import Breakdown from "@/components/Index/Breakdown/Breakdown";
 import Works from "@/components/Index/Works/Works";
 import Contact from "@/components/Index/Contact/Contact";
+import Process from '@/components/Index/Process/Process';
 
 const montserrat = Montserrat({ subsets: ["latin"] });
 
@@ -51,7 +52,8 @@ export default function Home() {
           <Hero />
           <Breakdown />
           <Works />
-          <Services />
+          {/* <Services /> */}
+          <Process />
           <Contact />
         </main>
         <Footer />

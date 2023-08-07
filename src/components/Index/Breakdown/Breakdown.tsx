@@ -2,7 +2,7 @@ import { CardData } from "./BreakdownData";
 
 const Card = (props: any) => {
   return (
-    <div className="card p-8 border rounded-2xl w-[360px] bg-gradient-card">
+    <div className="card p-8 border rounded-3xl w-full lg:w-[360px] bg-gradient-card">
       <div className="mb-[40px]">
         <props.icon size={"62px"} />
       </div>
@@ -25,8 +25,8 @@ const Card = (props: any) => {
 
 const Breakdown = (props: any) => {
   return (
-    <div className="mx-auto">
-      <ul className="flex gap-12 justify-center">
+    <div>
+      <ul className="flex flex-col md:flex-row gap-12 justify-center max-w-[calc(100vw-120px)] mx-auto flex-wrap">
         {CardData.map((data: any, index: number) => (
           <li key={data.title}>
             <Card
