@@ -2,7 +2,7 @@ import { CardData } from "./BreakdownData";
 
 const Card = (props: any) => {
   return (
-    <div className="card p-8 border rounded-3xl w-full lg:w-[360px] bg-gradient-card">
+    <div className="card p-8 border rounded-3xl w-full lg:w-[360px] bg-gradient-card border-stone-600">
       <div className="mb-[40px]">
         <props.icon size={"62px"} />
       </div>
