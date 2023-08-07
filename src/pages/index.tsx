@@ -10,6 +10,7 @@ import Breakdown from "@/components/Index/Breakdown/Breakdown";
 import Works from "@/components/Index/Works/Works";
 import Contact from "@/components/Index/Contact/Contact";
 import Process from '@/components/Index/Process/Process';
+import TemporarySitePanel from "@/components/Index/TemporarySitePanel/TemporarySitePanel";
 
 const montserrat = Montserrat({ subsets: ["latin"] });
 
@@ -55,6 +56,7 @@ export default function Home() {
           {/* <Services /> */}
           <Process />
           <Contact />
+          <TemporarySitePanel />
         </main>
         <Footer />
       </div>

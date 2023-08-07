@@ -1,8 +1,8 @@
-import { navigation } from "@/localization/en/ui-constants";
+import { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
-import { useState } from "react";
-import { AiOutlineInstagram, AiFillLinkedin, AiOutlineWhatsApp, AiOutlineLinkedin } from 'react-icons/ai';
+import { navigation } from "@/localization/en/ui-constants";
+import SocialLinks from "../SocialLinks/SocialLinks";
 
 const Navbar = (props: any) => {
 
@@ -13,19 +13,7 @@ const Navbar = (props: any) => {
       <div className="relative h-8 w-8">
         <Image fill src="/logo.svg" alt="Volcan" />
       </div>
-      <div>
-        <ul className="flex items-center">
-          <li className="ml-4">
-            <AiOutlineWhatsApp size={'28px'}/>
-          </li>
-          <li className="ml-4">
-            <AiOutlineLinkedin size={'28px'}/>
-          </li>
-          <li className="ml-4">
-            <AiOutlineInstagram size={'28px'}/>
-          </li>
-        </ul>
-      </div>
+      <SocialLinks />
       {showNavbar && (
         <nav className="rounded-full border border-stone-600 ml-8 px-8 h-16 items-center justify-center bg-[rgb(65, 65, 65)] hidden md:flex backdrop-blur-lg">
           <ul className="flex gap-8">
