@@ -10,7 +10,7 @@ const TemporarySitePanel = ( props : any ) => {
         alt="Volcan"
         className="object-contain relative z-0"
       />
-      <p className="text-center text-5xl leading-normal relative z-10">This is our <strong>temporary</strong> web page. You will be able to see the full thing <strong>soon</strong>. Meanwhile you can have a <strong>good coffee</strong> and see our Instagram.  </p>
+      <p className="text-center text-5xl leading-normal relative z-10 max-w-[920px] mx-auto">This is our <strong>temporary</strong> web page. You will be able to see the full thing <strong>soon</strong>. Meanwhile you can have a <strong>good coffee</strong> and see our Instagram.  </p>
     </Box>
   )
 };
