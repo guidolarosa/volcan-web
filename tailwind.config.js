@@ -22,7 +22,8 @@ module.exports = {
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
         'footer-gradient': 
-          'linear-gradient(90deg, rgba(30,30,30), black)'
+          'linear-gradient(90deg, rgba(30,30,30), black)',
+        'gradient-card': 'linear-gradient(136deg, rgba(255, 255, 255, 0.16) 0%, rgba(255, 255, 255, 0.13) 0.01%, rgba(255, 249, 248, 0.00) 100%)'
       },
     },
   },
