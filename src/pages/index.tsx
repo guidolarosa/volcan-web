@@ -44,8 +44,18 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Volcán | Branding and Design Studio</title>
+        <title>Volcan | Branding and Design Studio</title>
         <link rel="icon" href="/logo.svg" />
+        <meta property="twitter:image" content="/thumbnail.png"></meta>
+        <meta property="og:image" content="/thumbnail.png"></meta>
+        <meta property="twitter:card" content="/thumbnail.png"></meta>
+        <meta property="twitter:title" content="Volcan | Branding and Design Studio"></meta>
+        <meta property="twitter:description" content="Branding and Design Studio"></meta>
+        <meta property="description" content="Branding and Design Studio" />
+        <meta property="og:image" content="/thumbnail.png"></meta>
+        <meta property="og:title" content="Branding and Design Studio"></meta>
+        <meta property="og:description" content="Branding and Design Studio" />
+        <meta property="og:url" content="https://volcancollective.com"></meta>
       </Head>
       <div className={`${montserrat.className} h-[2000px]`}>
         <Header />
