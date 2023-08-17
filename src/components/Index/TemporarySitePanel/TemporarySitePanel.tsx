@@ -3,7 +3,7 @@ import Box from "@/components/Global/Box/Box";
 
 const TemporarySitePanel = ( props : any ) => {
   return (
-    <Box className="relative py-80">
+    <Box className="relative pt-10 mb-40 lg:py-80 lg:mb-0">
       <Image 
         src="/homepage/Temporary.png"
         fill

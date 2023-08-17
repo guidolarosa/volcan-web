@@ -6,7 +6,7 @@ import ContactForm from "./ContactForm";
 const Contact = (props: any) => {
   return (
     <Box className="my-40 flex flex-col md:flex-row gap-12 relative z-0">
-      <div className="opacity-0 lg:opacity-100 w-[580px] h-[580px] absolute right-[-10vw] top-0" data-aos="fade-up">
+      <div className="opacity-20 lg:opacity-100 w-[580px] h-[580px] absolute right-[-10vw] top-0">
         <Image
           src="/homepage/Email.png"
           fill

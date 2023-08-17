@@ -9,7 +9,7 @@ const Works = (props: any) => {
       <Box className="mt-40 mb-12 flex flex-col">
         <div className="flex justify-between w-full items-center">
           <div className="flex w-full relative">
-            <div className="w-[475px] h-[475px] aspect-square absolute top-[-80px] right-[calc(70vw-80px)] opacity-0 lg:opacity-100" data-aos="fade-up">
+            <div className="w-[475px] h-[475px] aspect-square absolute top-[-80px] right-[calc(70vw-80px)] opacity-0 lg:opacity-100">
               <Image
                 src="/homepage/Pen.png"
                 fill
