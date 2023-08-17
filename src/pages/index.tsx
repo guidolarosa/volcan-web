@@ -46,13 +46,13 @@ export default function Home() {
       <Head>
         <title>Volcan | Branding and Design Studio</title>
         <link rel="icon" href="/logo.svg" />
-        <meta property="twitter:image" content="/thumbnail.png"></meta>
-        <meta property="og:image" content="/thumbnail.png"></meta>
-        <meta property="twitter:card" content="/thumbnail.png"></meta>
+        <meta property="twitter:image" content="https://i.ibb.co/Wk9GBsD/thumbnail.png"></meta>
+        <meta property="og:image" content="https://i.ibb.co/Wk9GBsD/thumbnail.png"></meta>
+        <meta property="twitter:card" content="https://i.ibb.co/Wk9GBsD/thumbnail.png"></meta>
         <meta property="twitter:title" content="Volcan | Branding and Design Studio"></meta>
         <meta property="twitter:description" content="Branding and Design Studio"></meta>
         <meta property="description" content="Branding and Design Studio" />
-        <meta property="og:image" content="/thumbnail.png"></meta>
+        <meta property="og:image" content="https://i.ibb.co/Wk9GBsD/thumbnail.png"></meta>
         <meta property="og:title" content="Branding and Design Studio"></meta>
         <meta property="og:description" content="Branding and Design Studio" />
         <meta property="og:url" content="https://volcancollective.com"></meta>
