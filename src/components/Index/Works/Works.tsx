@@ -38,7 +38,7 @@ const Works = (props: any) => {
           </div>
         </div>
       </Box>
-      <div className="mb-40" data-aos="fade-up">
+      <div className="mb-20 lg:mb-40" data-aos="fade-up">
         <WorkSlider />
       </div>
     </>
