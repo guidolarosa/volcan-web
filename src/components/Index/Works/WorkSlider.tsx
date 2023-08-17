@@ -3,7 +3,7 @@ import { Splide, SplideSlide } from "@splidejs/react-splide";
 import works from "@/localization/works";
 import Box from "@/components/Global/Box/Box";
 
-const workPillStyles = "mb-2 lg:mb-0 w-fit py-2 px-8 bg-gradient-dark backdrop-blur-md text-md lg:text-xl rounded-full font-light border border-stone-400 text-stone-200";
+const workPillStyles = "mb-2 lg:mb-0 w-fit py-2 px-4 lg:px-8 bg-gradient-dark backdrop-blur-md text-sm lg:text-xl rounded-full font-light border border-stone-400 text-stone-200";
 
 const WorkSlider = (props: any) => {
   return (
@@ -30,7 +30,7 @@ const WorkSlider = (props: any) => {
               objectFit: "cover",
             }}
           />
-          <Box className="flex-col lg:flex-row lg:justify-between absolute top-0 left-0 w-full flex py-8">
+          <Box className="flex justify-between absolute top-0 left-0 w-full py-8">
             <div className={workPillStyles}>{work.title}</div>
             <div className={workPillStyles}>
               {work.services.map((service: string, index: any) => (

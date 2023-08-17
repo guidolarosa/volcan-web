@@ -1,5 +1,5 @@
 const work1 = {
-  title: 'Work 1',
+  title: 'Inked Festival',
   thumbnail: '/works/placeholder.png',
   largeImage: '/works/inked-festival.png',
   slug: 'work-1',

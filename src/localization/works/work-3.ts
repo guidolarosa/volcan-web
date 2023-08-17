@@ -4,7 +4,7 @@ const work3 = {
   largeImage: '/works/7B.png',
   slug: '7B',
   services: [
-    'Branding'
+    'Web Dev'
   ],
   location: 'Spain'
 }
