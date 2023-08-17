@@ -10,7 +10,7 @@ type BoxProps = {
 
 const Box = (props : BoxProps) => {
   return (
-    <div id={props.id} className={`flex mx-auto px-4 lg:px-40 ${props.className}`} style={props.style}>
+    <div id={props.id} className={`flex mx-auto px-8 lg:px-40 ${props.className}`} style={props.style}>
       {props.children}
     </div>
   );

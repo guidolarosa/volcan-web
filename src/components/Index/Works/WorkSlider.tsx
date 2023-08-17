@@ -3,6 +3,8 @@ import { Splide, SplideSlide } from "@splidejs/react-splide";
 import works from "@/localization/works";
 import Box from "@/components/Global/Box/Box";
 
+const workPillStyles = "mb-2 lg:mb-0 w-fit py-2 px-8 bg-gradient-dark backdrop-blur-md text-xl rounded-full font-light border border-stone-400 text-stone-200";
+
 const WorkSlider = (props: any) => {
   return (
     <Splide
@@ -28,17 +30,17 @@ const WorkSlider = (props: any) => {
               objectFit: "cover",
             }}
           />
-          <Box className="justify-between absolute top-0 left-0 w-full flex py-8">
-            <div className="py-2 px-8 bg-stone-900 text-xl rounded-full font-light border">{work.title}</div>
-            <div className="py-2 px-8 bg-stone-900 text-xl rounded-full font-light border">
+          <Box className="flex-col lg:flex-row lg:justify-between absolute top-0 left-0 w-full flex py-8">
+            <div className={workPillStyles}>{work.title}</div>
+            <div className={workPillStyles}>
               {work.services.map((service: string, index: any) => (
                 <span key={index}>{service}</span>
               ))}
             </div>
-            <div className="py-2 px-8 bg-stone-900 text-xl rounded-full font-light border">{work.location}</div>
+            <div className={workPillStyles}>{work.location}</div>
           </Box>
           {work.logo && (
-            <div className="w-[580px] h-[580px] relative my-auto mx-auto">
+            <div className="max-w-[60vw] w-[580px] h-[580px] relative my-auto mx-auto">
               <Image
                 src={work.logo}
                 fill

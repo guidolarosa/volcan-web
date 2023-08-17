@@ -26,7 +26,7 @@ const Card = (props: any) => {
 const Breakdown = (props: any) => {
   return (
     <div>
-      <ul className="flex flex-col md:flex-row gap-12 justify-center max-w-[calc(100vw-120px)] mx-auto flex-wrap">
+      <ul className="flex flex-col md:flex-row gap-12 justify-center max-w-[420px] lg:max-w-[unset] mx-auto flex-wrap">
         {CardData.map((data: any, index: number) => (
           <li key={data.title}>
             <Card
