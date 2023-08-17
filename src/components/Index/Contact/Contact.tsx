@@ -6,7 +6,7 @@ import ContactForm from "./ContactForm";
 const Contact = (props: any) => {
   return (
     <Box className="my-40 flex flex-col md:flex-row gap-12 relative z-0">
-      <div className="opacity-0 lg:opacity-100 w-[580px] h-[580px] absolute right-[-10vw] top-0">
+      <div className="opacity-0 lg:opacity-100 w-[580px] h-[580px] absolute right-[-10vw] top-0" data-aos="fade-up">
         <Image
           src="/homepage/Email.png"
           fill
@@ -14,7 +14,7 @@ const Contact = (props: any) => {
           className="object-contain"
         />
       </div>
-      <div className="flex justify-between w-full lg:w-1/3 mb-auto">
+      <div className="flex justify-between w-full lg:w-1/3 mb-auto" data-aos="fade-up">
         <div className="flex flex-col">
           <h1 className="text-4xl md:text-6xl font-bold mb-4">
             Drop us <br/> a line
@@ -32,7 +32,7 @@ const Contact = (props: any) => {
           </p>
         </div>
       </div>
-      <div className="w-full lg:w-2/3 mb-auto mt-0 lg:mt-12 md:mt-0 relative z-10">
+      <div className="w-full lg:w-2/3 mb-auto mt-0 lg:mt-12 md:mt-0 relative z-10" data-aos="fade-up">
         <ContactForm />
       </div>
     </Box>

@@ -9,7 +9,7 @@ const Navbar = (props: any) => {
   const [showNavbar, setShowNavbar] = useState(false);
 
   return (
-    <div className="flex justify-between w-full">
+    <div data-aos="fade-down" className="flex justify-between w-full">
       <div className="relative h-8 w-8">
         <Image fill src="/logo.svg" alt="Volcan" />
       </div>

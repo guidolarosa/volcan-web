@@ -74,6 +74,7 @@ const Process = (props: any) => {
             <li
               key={index}
               className="group lg:relative flex flex-col w-full max-w-[380px] md:w-1/4 mb-20 lg:mb-0"
+              data-aos="fade-up"
               style={{ top: `${(data.length - index) * 80}px` }}
             >
               <div className="flex align-bottom mb-4 lg:opacity-0 group-hover:opacity-100 transition translate-y-0 lg:translate-y-[-40px] group-hover:translate-y-0">

@@ -13,7 +13,7 @@ const Hero = (props: any) => {
         fill
         style={{ objectFit: "cover" }}
       />
-      <div className="w-[80vw] lg:w-full h-[120px] relative">
+      <div data-aos="fade-up" className="w-[80vw] lg:w-full h-[120px] relative">
         <Image src="/homepage/Logo.svg" alt="Volcan" fill />
       </div>
     </Box>

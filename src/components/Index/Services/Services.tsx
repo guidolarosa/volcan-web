@@ -48,6 +48,7 @@ const Services = () => {
           {servicesData.map((service: any, index: number) => (
             <ServiceListItem
               key={index}
+              index={index}
               title={service.title}
               tags={service.tags}
               description={service.description}

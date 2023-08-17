@@ -2,7 +2,6 @@ import { useState } from "react";
 
 const ServiceListItem = (props: any) => {
 
-  
   const [isOpen, setIsOpen] = useState(false);
 
   const toggleIsOpen = () => {

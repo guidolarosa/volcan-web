@@ -9,7 +9,7 @@ const Works = (props: any) => {
       <Box className="mt-40 mb-12 flex flex-col">
         <div className="flex justify-between w-full items-center">
           <div className="flex w-full relative">
-            <div className="w-[475px] h-[475px] aspect-square absolute top-[-80px] right-[calc(70vw-80px)] opacity-0 lg:opacity-100">
+            <div className="w-[475px] h-[475px] aspect-square absolute top-[-80px] right-[calc(70vw-80px)] opacity-0 lg:opacity-100" data-aos="fade-up">
               <Image
                 src="/homepage/Pen.png"
                 fill
@@ -17,7 +17,7 @@ const Works = (props: any) => {
                 className="object-contain"
               />
             </div>
-            <div className="flex flex-col ml-0 lg:ml-auto">
+            <div className="flex flex-col ml-0 lg:ml-auto" data-aos="fade-up">
               <h1 className="text-4xl md:text-[128px] md:leading-[128px] font-bold mb-4 md:text-right md:mb-8">
                 Works
                 <br /> <span className="font-light">that work.</span>
@@ -38,7 +38,7 @@ const Works = (props: any) => {
           </div>
         </div>
       </Box>
-      <div className="mb-40">
+      <div className="mb-40" data-aos="fade-up">
         <WorkSlider />
       </div>
     </>

@@ -28,7 +28,7 @@ const Breakdown = (props: any) => {
     <div>
       <ul className="flex flex-col md:flex-row gap-12 justify-center max-w-[420px] lg:max-w-[unset] mx-auto flex-wrap">
         {CardData.map((data: any, index: number) => (
-          <li key={data.title}>
+          <li key={data.title} data-aos="fade-up" data-aos-delay={index * 100}>
             <Card
               icon={data.icon}
               title={data.title}
